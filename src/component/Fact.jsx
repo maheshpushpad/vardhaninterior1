@@ -31,13 +31,13 @@ const FunFacts = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
           <div className="wow fadeIn" data-wow-delay="0">
             <div className="de_count">
-              <CountUp endValue={100} duration={2000} />
+              <CountUp endValue={80} duration={2000} />
               <span className="text-lg font-bold mt-2 text-[#d66f2d]">Satisfied Clients</span>
             </div>
           </div>
           <div className="wow fadeIn" data-wow-delay=".50s">
             <div className="de_count">
-              <CountUp endValue={100} duration={2000} />
+              <CountUp endValue={80} duration={2000} />
               <span className="text-lg font-bold mt-2 text-[#d66f2d]">Projects Completed</span>
             </div>
           </div>

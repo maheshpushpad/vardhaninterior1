@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import logo from '../assets/Images/logo.png';
+import logo from '../assets/Images/bglogo.png';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -49,12 +49,19 @@ const Header = () => {
         <>
           <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
             <div className="relative flex h-20 items-center justify-between">
-              <div className="flex-1 flex items-center justify-between md:items-stretch md:justify-start">
-                <div className="flex-shrink-0">
-                  <img src={logo} alt="Logo" className="h-16 rounded-full border-2 border-[#65422e] w-auto" />
-                  
+              <div className="flex-1 flex items-center justify-between pt-4 md:pt-8 md:items-stretch md:justify-start">
+                <div className="flex-shrink-0 flex items-center space-x-2 p-2 md:p-3 rounded-lg bg-white">
+                  <img
+                    src={logo}
+                    alt="Logo"
+                    className="h-12 w-auto md:h-16"
+                  />
+                  <span className="text-lg md:text-xl font-semibold text-[#DEC085] pl-2 md:pl-4 leading-tight">
+                    Vardhan <br />Interior
+                  </span>
                 </div>
               </div>
+
 
               <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
                 {/* Mobile menu button */}
