@@ -49,9 +49,7 @@ const Header = () => {
         <>
           <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
             <div className="relative flex h-20 items-center justify-between">
-              <div className="flex-1 flex items-center justify-between pt-4 md:pt-8 md:items-stretch md:justify-start">
-                <div className="flex-shrink-0 flex items-center space-x-2 p-2 md:p-3 rounded-lg bg-white">
-                  <img
+               <img
                     src={logo}
                     alt="Logo"
                     className="h-12 w-auto md:h-16"
@@ -59,7 +57,7 @@ const Header = () => {
                   <span className="text-lg md:text-xl font-semibold text-[#DEC085] pl-2 md:pl-4 leading-tight">
                     Vardhan <br />Interior
                   </span>
-                </div>
+              <div className="flex-1 flex items-center justify-between pt-4 md:pt-8 md:items-stretch md:justify-start">
               </div>
 
 
